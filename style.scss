@@ -1,0 +1,87 @@
+@import "global";
+@import "media";
+#bad{
+  background: url("../img/hg.png") no-repeat right center/cover;
+  min-height: 100vh;
+  .hamburger-menu{
+    display: block;
+  }
+
+
+  .header{
+    position: absolute;
+    height: 720px;
+    left: 0%;
+    right: 0%;
+    top: 0;
+    background: rgba(52, 52, 52, 0.6);
+    border-radius: 0;
+    &--ok{
+     margin-left: 700px;
+      display: flex;
+      align-items: center;
+      padding:30px 0;
+      a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin: 0 20px;
+      }
+      &__btn button{
+        width: 129px;
+        height: 54px;
+        background: #FF4D01;
+        border:none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+    &--hero{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 60px;
+      h1{
+        font-weight: 200;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 50px;
+      }
+      &__bot{
+        display: flex;
+     &--go{
+       button{
+         @include btn();
+         margin: 0 50px;
+       }
+     }
+        &--so button{
+          border: 2px solid #FFFFFF;
+          border-radius: 0px;
+          width: 180px;
+          height: 75px;
+          background: none;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 20px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+    }
+
+  }
+}
