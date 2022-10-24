@@ -128,7 +128,8 @@
       button{
         padding: 15px 20px;
         border: 1px solid rgba(0, 0, 0, 0.87);
-        background: transparent;font-weight: 400;
+        background: transparent;
+        font-weight: 400;
         font-size: 18px;
         color: #191919;
         margin-top: 40px;
@@ -137,6 +138,8 @@
     }
   }
 }
+
+
 
 #about{
   padding: 60px 0;
@@ -189,6 +192,7 @@
     }
   }
 }
+
 #service{
   .service{
     &--to{
@@ -273,4 +277,53 @@
 
     }
   }
+
+}
+
+#trigger{
+  background: url("../img/tiggerbg.png") no-repeat center/cover;
+  min-height: 70vh;
+  .trigger{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    &--block{
+      width: 60%;
+      margin-left: 10%;
+      h1{
+        font-weight: 400;
+        font-size: 54px;
+        color: #191919;
+      }
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        color: #605E5D;
+        padding-top: 20px;
+      }
+      &__btn{
+        margin-top: 20px;
+        &--button{
+          padding: 15px 20px;
+          border: none;
+          background: #FF4D01;
+          font-weight: 400;
+          font-size: 18px;
+          color: #191919;
+          margin-top: 40px;
+        }
+        &--button1{
+          padding: 15px 20px;
+          border: 1px solid rgba(0, 0, 0, 0.87);
+          background: transparent;
+          font-weight: 400;
+          font-size: 18px;
+          color: #191919;
+          margin-top: 40px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
 }
