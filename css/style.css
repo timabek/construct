@@ -310,6 +310,7 @@ body {
   border-radius: 10px;
 }
 
+
 #about {
   padding: 60px 0;
 }
@@ -446,6 +447,7 @@ body {
   line-height: 20px;
   color: #191919;
 }
+
 #trigger {
   background: url("../img/tiggerbg.png") no-repeat center/cover;
   min-height: 70vh;
@@ -492,4 +494,5 @@ body {
   margin-top: 40px;
   margin-left: 10px;
 }
+
 /*# sourceMappingURL=style.css.map */
